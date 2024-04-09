@@ -1,0 +1,64 @@
+Result Size: 753 x 652
+me
+--<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="get" id=" feedback" class="form"></form>
+       
+        <div> 
+        <label for="name">First Name</label>
+        <input  placeholder="Enter your First name" id="name" name="name"><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input placeholder="Enter your Last Name" id="" name="last Name"><br><br>
+        
+        <label for="address"> Email address:</label>
+        <input placeholder="Enter your Email" id="address" name="address"><br><br>
+        
+        <label for="Phone"> Phone:</label>
+        <input placeholder="Enter your phone"id="Phone" name="Phone" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}>" minlength="13" maxlength="13">        
+        <br><br>
+        <label for="title">Title:</label>
+        <input placeholder="Enter your Title" id="title" name="title"><br><br>      
+        <div> 
+        
+        <label for="Job Function"> Job Function:</label>
+        <label><br><br>
+          <input type="radio" name="Functions" value="Partner">Partner
+         </label><br><br>
+         <label>
+          <input type="radio" name="Functions" value="Employee">Employee
+         </label><br><br>
+         <label>
+          <input type="radio" name="Functions" value="Email Deployment">Email Deployment
+         </label><br><br>
+         <label>
+          <input type="radio" name="Functions" value="CRM Administration">CRM Administration
+         </label><br><br>
+         <label>
+          <input type="radio" name="Functions" value="Campain Management">Campain Management
+         </label><br><br>
+         
+         <label for="Dietary Requirements"> Dietary Requirements:
+         </label>
+        <input type="text" name="Dietary Requirements:" >        
+        <br><br>
+         <label>
+         <input type="checkbox" name="DR" value="Employee">Cancel Registration:
+         </label><br><br>
+         <label for="time">Time:</label>
+        <input type="time" placeholder="Choose the time" ><br><br>
+        <input type="date" placeholder="Choose the date" ><br><br>
+        <div class="field-row">
+        <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+        </div><br><br>
+         <Button type="Submit">
+          Надіслати
+         </Button>
+        </form>
+
